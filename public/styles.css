@@ -21638,6 +21638,36 @@ video {
           animation: bounce 1s infinite;
 }
 
+a {
+  text-decoration: none;
+  --text-opacity: 1;
+  color: #38b2ac;
+  color: rgba(56, 178, 172, var(--text-opacity));
+}
+
+.top-nav-item {
+  padding-left: 0.25rem;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  font-size: 0.875rem;
+  margin-right: 1rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.top-nav-item:hover {
+  --text-opacity: 1;
+  color: #38b2ac;
+  color: rgba(56, 178, 172, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #38b2ac;
+  border-color: rgba(56, 178, 172, var(--border-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
