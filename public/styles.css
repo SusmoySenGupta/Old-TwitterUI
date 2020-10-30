@@ -21645,6 +21645,10 @@ a {
   color: rgba(56, 178, 172, var(--text-opacity));
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .top-nav-item {
   padding-left: 0.25rem;
   --text-opacity: 1;
@@ -21660,6 +21664,7 @@ a {
 }
 
 .top-nav-item:hover {
+  text-decoration: none;
   --text-opacity: 1;
   color: #38b2ac;
   color: rgba(56, 178, 172, var(--text-opacity));
@@ -21667,6 +21672,12 @@ a {
   border-color: #38b2ac;
   border-color: rgba(56, 178, 172, var(--border-opacity));
 }
+
+.hero {
+  background: url("./img/tailwind_bg.jpg");
+}
+
+/* flex text-center py-4 */
 
 @media (min-width: 640px) {
   .sm\:container {
